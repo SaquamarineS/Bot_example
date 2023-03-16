@@ -13,13 +13,13 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
 async def start_func(message : types.Message):
-    await message.raply('Starter')
+    await message.reply('Starter')
     
     
     
 @dp.message_handler(commands=['help'])
 async def start_func(message : types.Message):
-    await message.raply('Helper')
+    await message.reply('Helper')
 
 
 
