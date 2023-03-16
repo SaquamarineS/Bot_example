@@ -1,6 +1,6 @@
 import logging
 from aiogram import Bot, Dispatcher, executor, types
-pip freeze > requirements.txt
+
 
 TOKEN = '6090188735:AAE-7Q6frjzI4-WiH8cIgBG1fEJSbNYsW30'
 
